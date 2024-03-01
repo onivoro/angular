@@ -1,6 +1,9 @@
 {
   "name": "@onivoro/angular-common",
   "version": "17.0.8",
+  "repository": {
+    "url": "https://github.com/onivoro/angular.git"
+  },
   "peerDependencies": {
     "@angular/common": "^17.2.0",
     "@angular/core": "^17.2.0"
