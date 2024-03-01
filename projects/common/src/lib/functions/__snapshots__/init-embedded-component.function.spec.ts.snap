@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`initEmbeddedComponent pulls specified attributes from the element 1`] = `
+Object {
+  "accentContrast": "#ffffff",
+  "id": "ui-answers",
+  "notDefined": "should not change",
+}
+`;
