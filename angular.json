@@ -80,25 +80,6 @@
           "options": {
             "buildTarget": "onivoro-com:build"
           }
-        },
-        "test": {
-          "builder": "@angular-devkit/build-angular:karma",
-          "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
-            "tsConfig": "projects/onivoro-com/tsconfig.spec.json",
-            "inlineStyleLanguage": "scss",
-            "assets": [
-              "projects/onivoro-com/src/favicon.ico",
-              "projects/onivoro-com/src/assets"
-            ],
-            "styles": [
-              "projects/onivoro-com/src/styles.scss"
-            ],
-            "scripts": []
-          }
         }
       }
     }
