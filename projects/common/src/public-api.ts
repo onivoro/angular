@@ -32,4 +32,5 @@ export * from './lib/services/event-bridge.service';
 
 export * from './lib/types/api-credentials.type';
 export * from './lib/types/iconic-route.type';
+export * from './lib/types/page.type';
 export * from './lib/types/keys-of.type';
