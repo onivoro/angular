@@ -278,6 +278,10 @@ export abstract class AbstractBaseFormComponent<TFormValue extends Record<string
     return { add, remove, requiresChanges };
   }
 
+  protected subscribe($: Observable<any>) {
+    this.subscriptions.push($.subscribe());
+  }
+
   protected keysOf(controls: TKeysOf<Partial<TFormValue>, FormControl>, filterFn?: (key: keyof Partial<TFormValue>) => boolean) {
     const keys = Object.keys(controls);
 
