@@ -22,6 +22,12 @@ export * from './lib/functions/true-then-false.function';
 export * from './lib/functions/set-then-negate.function';
 export * from './lib/functions/stylize.function';
 
+export * from './lib/pipes/calendar-date.pipe';
+export * from './lib/pipes/money.pipe';
+export * from './lib/pipes/month-day-year-time.pipe';
+export * from './lib/pipes/month-day-year.pipe';
+export * from './lib/pipes/trust.pipe';
+
 export * from './lib/services/event-bridge.service';
 
 export * from './lib/types/api-credentials.type';
