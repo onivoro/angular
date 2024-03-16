@@ -1,3 +1,4 @@
+export * from './lib/classes/abstract-base-form.component';
 export * from './lib/classes/abstract-data-entity-service.class';
 export * from './lib/classes/abstract-entity-service.class';
 export * from './lib/classes/abstract-http-entity-service.class';
