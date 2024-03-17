@@ -5,6 +5,9 @@
     "paths": {
       "common": [
         "./dist/common"
+      ],
+      "material-forms": [
+        "./dist/material-forms"
       ]
     },
     "outDir": "./dist/out-tsc",
