@@ -18,6 +18,8 @@ export * from './lib/directives/typing.directive';
 export * from './lib/functions/false-then-true.function';
 export * from './lib/functions/init-embedded-component.function';
 export * from './lib/functions/inject-script.function';
+export * from './lib/functions/set-css-property.function';
+export * from './lib/functions/set-css-variable.function';
 export * from './lib/functions/true-then-false.function';
 export * from './lib/functions/set-then-negate.function';
 export * from './lib/functions/stylize.function';
