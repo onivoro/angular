@@ -1,8 +1,13 @@
 export const colors = [
     'primary',
+    'primary-muted',
     'primary-contrast',
     'accent',
+    'accent-muted',
     'accent-contrast',
+    'warn',
+    'warn-muted',
+    'warn-contrast',
     'base',
     'base-muted',
     'contrast',

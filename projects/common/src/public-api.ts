@@ -9,6 +9,7 @@ export * from './lib/classes/redirect-service.class';
 
 export * from './lib/components/common/common.service';
 export * from './lib/components/common/common.component';
+
 export * from './lib/constants/colors.constant';
 export * from './lib/constants/embedded-app-component-template.constant';
 export * from './lib/constants/states.constant';
@@ -17,12 +18,14 @@ export * from './lib/directives/typing.directive';
 
 export * from './lib/functions/false-then-true.function';
 export * from './lib/functions/init-embedded-component.function';
+export * from './lib/functions/init-embedded-component-with-dataset.function';
 export * from './lib/functions/inject-script.function';
 export * from './lib/functions/set-css-property.function';
 export * from './lib/functions/set-css-variable.function';
 export * from './lib/functions/true-then-false.function';
 export * from './lib/functions/set-then-negate.function';
 export * from './lib/functions/stylize.function';
+export * from './lib/functions/stylize-with-dataset.function';
 
 export * from './lib/pipes/calendar-date.pipe';
 export * from './lib/pipes/money.pipe';
