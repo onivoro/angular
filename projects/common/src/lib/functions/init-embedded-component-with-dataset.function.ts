@@ -1,7 +1,7 @@
 import { TApiCredentials } from "../types/api-credentials.type";
 import { stylizeWithDataset } from "./stylize-with-dataset.function";
 
-export function initEmbeddedComponentWithDataset(nativeElement: HTMLElement, credentialHandler: (credentials: TApiCredentials) => void) {
+export function initEmbeddedComponentWithDataset(nativeElement: HTMLElement, credentialHandler: (credentials: TApiCredentials) => void, attributeMap = {}) {
     const dataset = nativeElement.dataset;
 
     const { apiId = '', apiKey = '' } = dataset;
@@ -10,5 +10,7 @@ export function initEmbeddedComponentWithDataset(nativeElement: HTMLElement, cre
 
     stylizeWithDataset(nativeElement);
 
-    return dataset;
+    Object.entries(dataset).forEach(([key, value]) => (attributeMap as any)[key] = value);
+
+    return attributeMap;
 }
