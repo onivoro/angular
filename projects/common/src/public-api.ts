@@ -2,6 +2,7 @@ export * from './lib/classes/abstract-base-form.component';
 export * from './lib/classes/abstract-data-entity-service.class';
 export * from './lib/classes/abstract-entity-service.class';
 export * from './lib/classes/abstract-http-entity-service.class';
+export * from './lib/classes/abstract-readonly-http-entity-service.class';
 export * from './lib/classes/abstract-http-paged-entity-service.class';
 export * from './lib/classes/abstract-paged-entity-service.class';
 export * from './lib/classes/in-memory-file-service.class';
